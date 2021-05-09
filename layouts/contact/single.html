@@ -1,0 +1,20 @@
+{{ define "main" }}
+<section id="contact" class="contact section">
+  <div class="row">
+    <h2 class="section__title ">{{ .Title }}</h2>
+    {{ with .Params.subtitle }}
+    <div class="section__subtitle">{{ . | markdownify}}</div>
+    {{ end }}
+  </div>
+
+  <div class="row row d-flex justify-content-center pt-3">
+    <!-- CONTACT FORM -->
+    <div class="col-md-6 order-md-first">
+      <H4>{{ .Params.formTitle }}</H4>
+      {{ partial "components/c-contact-form.html" . }}
+    </div>
+  </div> <!-- END ROW -->
+  </div>
+
+</section>
+{{ end }}

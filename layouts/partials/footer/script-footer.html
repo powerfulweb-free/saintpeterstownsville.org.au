@@ -1,0 +1,13 @@
+{{ partial "scripts/esbuild-babel" "js/assets.js" }}
+{{ partial "scripts/esbuild-async" "js/vendors.js" }}
+
+{{ if eq .Type "contact" }}
+{{ partial "scripts/esbuild-babel" "js/contact.js" }}
+{{ end }}
+
+<!-- conditionally load lazysizes on multi page sites -->
+{{ if .Resources.ByType "image" }}
+  {{ if not .Resources.By.SubType "svg" }}
+  {{ partial "scripts/esbuild-async" "js/lazysizes.js" }}
+  {{ end }}
+{{ end }}

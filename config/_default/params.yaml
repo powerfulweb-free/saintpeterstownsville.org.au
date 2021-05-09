@@ -1,0 +1,97 @@
+description: Text about my cool site
+images:
+#- site-feature-image.jpg
+
+
+
+
+
+
+
+
+###############
+# HYAS CONFIG #
+###############
+titleSeparator: "-"
+titleAddition: "" #for home page
+description: ""
+
+images: 
+- "favicon-194x194.png" #for social templates
+
+
+
+##BROWSER CONFIG
+#apple browser config
+appleFullScreen: true
+appleStatusColor: "white"
+noApplePhoneLinks: true
+safariBgColor: "#5bbad5"
+#ms browSer config
+msTileColor: "#00aba9"
+
+
+#head schema additional config
+schemaType: "Organization"  #organisation/person
+siteLinksSearchBox: false
+schemaSection: "Website"
+
+# OG AND TWITTER SITE PARAMS
+#facebookAppId: # for facebook insights
+twitterSite:
+
+
+#SITE ALERT TEXT FOR TOP OF PAGE
+alert: false
+alertText: ""
+
+#MENU LOGO
+# logoPath: "header-logo.jpg"
+# logoWidth: "100"  
+
+#CONFIGURE TOP MENU BUTTON  
+# menu_button_text: "Help Desk"
+# menu_button_link: "https://support.powerfulwebdesign.com.au/"
+# menu_button_style: "btn-warning" # bootstrap button class
+
+
+
+
+
+
+
+# DEV TOOLS (only on hugo server)
+devGrid: true
+devParameters: true
+
+
+
+
+
+
+
+
+
+
+##FACEBOOK EMBED
+## SEE https://developers.facebook.com/docs/plugins/page-plugin/
+##language set through .Site.LanguageCode
+facebookTabs: "timeline"   # tabs to render -  timeline,events,messages (comma seperated)
+#facebookWidth: "" #min 180px max 500px (340)
+facebookHeight: "700" # The pixel height of the plugin. Min. is 70 default 500px
+# facebookSmallHeader: false # Use the small header instead (FALSE)
+facebookAdaptiveWidth: false #   Try to fit inside the container width  (TRUE)
+# facebookHideCover: false #hide cover photo in header (FALSE)
+# facebookFriendsFaces: true #Show profile photos when friends like this  (TRUE)
+# facebookHideCTA: false #Hide the custom call to action button (if available) (FALSE)
+facebookLazy: true # loading="lazy" iframe (FALSE)
+
+##TWITTER EMBEDS 
+##SEE https://publish.twitter.com/#
+# twitterName: "BillGates"
+# #twitter-feed partial
+# twitterDark: false # enable dark theme (FALSE)
+# twitterHeight: "800" #(NULL)
+# twitterWidth: "" #(NULL)
+# #twitter follow button options
+# twitterLargeButton: true #large button (FALSE)
