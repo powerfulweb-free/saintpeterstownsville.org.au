@@ -1,11 +1,13 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "Messy Church"
 description: ""
-date: {{ .Date }}
-#lastmod: {{ .Date }}
+date: 2021-05-09T20:49:22+10:00
+#lastmod: 2021-05-09T20:49:22+10:00
 draft: false
-# menu: "main"
-# weight: 60
+menu: 
+  main:
+    parent: children
+    weight: 20
 images: []
 # audio: [] #fb og
 # videos: [] #fb og
@@ -24,3 +26,7 @@ images: []
 #       # widthCols: true  (for all columns)   
 #       # widthThumbs: true (for thumbnail and 6 col layer)
 ---
+Messy Church
+Messy Church is a family orientated service for all – from the youngest children to adults. It is held on the 2nd Sunday of each month at 9.00am. It’s a more informal service and is held in the Church Hall. Come and join us for a happy time of celebration, craft, singing, prayer and fellowship.
+
+For updates on Messy Church times and news, like our Facebook page.

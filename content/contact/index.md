@@ -1,5 +1,5 @@
 ---
-title : "Contact Us"
+title : "Contact Us & Location"
 menu: "main"
 weight: 100
 type: contact
@@ -47,8 +47,15 @@ formTextAreas:
     invalidFeedback: "Please enter message."
 
 ---
-Please fill in the form to the right to request a quote. 
+We are located in the heart of West End, Townsville at;
 
-If you have any question, please contact us using the details to the right. 
+Cnr. Leigh and Ralston Streets,
 
-For website updates and assistance, please click the help desk link to the right, on at the top of the page.
+West End, QLD 4810
+
+We can be contacted by:
+Email: saint.peters  AT  bigpond.com
+
+Phone: 07 4771 3550
+
+Facebook: facebook.com/saintpeterstownsville

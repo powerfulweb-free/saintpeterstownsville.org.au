@@ -14,10 +14,8 @@ weight: 10
 #   params:
 #     #lazy: false
 ---
-Summy Snakstation creates Artisan made West-African snacks with a modern Australian twist. 
+Welcome
 
-All of our products are vegan. 
+We welcome you to our beautiful Church, whose parish has been serving the Townsville community for well over a century. We offer a blend of traditional and contemporary Anglican liturgy for all ages, and aim to be a welcoming community.
 
-We have been baking and selling our products in Sydney since 2015. You will find us at locations such as the Sydney Vegan Market at Moore Park and our Pop up shop at Top Ryde shopping center on Thursday-Sunday.
-
-Please see our facebook feed on the side for regular updates on new products and where to find us. Alternatively you can [contact us]({{< ref "/contact" >}} "link to contact page") for further information. 
+We are are unique in Townsville in that we are a  “Ministering Community” – a community of volunteers who work together in common worship and prayer.

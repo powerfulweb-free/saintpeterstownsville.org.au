@@ -32,7 +32,7 @@
 //More layout and components
 @import 'bootstrap/scss/buttons';
 @import 'bootstrap/scss/transitions'; //needed for mobile down down menu
-//@import "bootstrap/scss/dropdown";
+@import "bootstrap/scss/dropdown";
 //@import "bootstrap/scss/button-group";
 @import 'bootstrap/scss/nav';
 @import 'bootstrap/scss/navbar';
@@ -80,6 +80,9 @@
 //UTILITIES (common)
 @import 'utilities';
 
+
+//noscript support for js modules
+@import './vendors-common.scss';
 
 
 

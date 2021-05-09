@@ -20,7 +20,7 @@ baseurl: "https://www.site-name.com.au"
 disableKinds: ["RSS", "taxonomy", "taxonomyTerm"]
 #disablePathToLower (false)
 #enableEmoji: true  #default false
-#enableGitInfo: true # default false  Enable .GitInfo object for each page
+enableGitInfo: true # default false  Enable .GitInfo object for each page
 # This will then update the Lastmod parameter for each page using the last git commit date for that content file.
 #enableInlineShortcodes (false)
 enableRobotsTXT: true # (false)
