@@ -1,7 +1,9 @@
 import { contactForm } from './contact-form/index';
 contactForm({
-  formAction: '',  
-  grecaptchaKey: '',  
+  // formAction: '', // production
+  formAction: 'http://127.0.0.1/mail.powerfulwebdesign.com.au/local.php', // local test
+  //grecaptchaKey: '', // production
+  grecaptchaKey: '6LcTOs4aAAAAAN15ll0mreJjk457f7zvNmLOsfZS', // local test
   grecaptchaLocation: 'bottomright',
   // formId: 'js-contactForm',
   // inputNameId: 'js-contact-name',

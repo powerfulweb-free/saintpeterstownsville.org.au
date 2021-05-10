@@ -24,7 +24,7 @@ enableGitInfo: true # default false  Enable .GitInfo object for each page
 # This will then update the Lastmod parameter for each page using the last git commit date for that content file.
 #enableInlineShortcodes (false)
 enableRobotsTXT: true # (false)
-googleAnalytics: ""
+googleAnalytics: G-591078NZFS
 languageCode: "en-AU" # needs hyphen e.g. en-AU
 # use {{ substr .Site.LanguageCode 0 2 }} to get the first 2 letters e.g. en
 languageName: "English"
