@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="container">
+  {{ range .Pages.ByWeight }}
+  <div class="row pb-3">
+    <div class="col">
+      <div class="clearfix pe-0">
+        <div class="col-6 col-md-6 col-lg-5 col-xl-4 col-xxl-3 float-end">
+          {{ partial "scripts/srcset.html" (dict "page" . "image" "main" "title" .Title "width" "cols" "class" "px-5") }}
+        </div>
+        <h3>{{ .Title }}</h3>
+        {{ .Content | markdownify }}
+      </div>
+    </div>
+  </div>
+  {{ end }}
+</div>
+{{ end }}

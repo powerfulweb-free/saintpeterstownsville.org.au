@@ -17,7 +17,7 @@
         {{ range .Site.Menus.main }}
           {{ if .HasChildren }}  
           <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }} nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a href="{{ .URL | relLangURL }}" class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               {{- .Name -}}
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">

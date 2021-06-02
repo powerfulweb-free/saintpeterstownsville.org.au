@@ -7,4 +7,12 @@
       "path": "..\\hugo-common"
     }
   ],
+  "settings": {
+    "cSpell.words": [
+      "bubs",
+      "g",
+      "nzfs",
+      "supa"
+    ]
+  },
 }

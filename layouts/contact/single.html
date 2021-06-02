@@ -1,15 +1,23 @@
 {{ define "main" }}
-<section id="contact" class="contact section">
+<div class="container">
   <div class="row">
-    <h2 class="section__title ">{{ .Title }}</h2>
-    {{ with .Params.subtitle }}
-    <div class="section__subtitle">{{ . | markdownify}}</div>
-    {{ end }}
+    <div class="col">
+      {{ with .Params.subtitle }}
+      <h3>{{ . }}</h3>
+      {{ end }}
+      <div class="text-body">
+        {{ .Content | markdownify }}
+      </div>
+    </div>
   </div>
 
   <div class="row row d-flex justify-content-center pt-3">
+    <div class="col-md-6">
+      <!-- contact details -->
+      {{ partial "components/c-contact-details2.html" . }}
+    </div>
     <!-- CONTACT FORM -->
-    <div class="col-md-6 order-md-first">
+    <div class="col-md-6">
       <H4>{{ .Params.formTitle }}</H4>
       {{ partial "components/c-contact-form.html" . }}
     </div>
@@ -17,4 +25,8 @@
   </div>
 
 </section>
+<div class="container-fluid gmap--fluid">
+  {{ partial "components/c-gmap-fluid" . }} 
+  <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.4655223205555!2d146.790267527499!3d-19.262111732739925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6bd5f9023dc5b673%3A0xa7c1f61a390cd12d!2sSaint%20Peter&#39;s%20Anglican%20Church!5e0!3m2!1sen!2sau!4v1622468304075!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+</div>
 {{ end }}

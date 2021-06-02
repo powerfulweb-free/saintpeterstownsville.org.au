@@ -5,7 +5,9 @@
 @import "custom-variables";  
 @import "bootstrap/scss/variables";
 
-@import "./bs-nav/variables-navbar-2.scss";
+//@import "./bs-nav/variables-navbar-2.scss";
+@import "variables-navbar.scss";
+
 @import "custom-maps"; //add custom variables to maps so they can be called through css selectors
 
 

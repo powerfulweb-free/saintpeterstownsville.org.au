@@ -1,11 +1,26 @@
 {{ define "main" }}
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md order-md-2 p-0">
+      <div class="card">
+        {{ partial "scripts/srcset.html" (dict "page" . "image" "exterior" "title" .Title "width" "" "class" "card-img") }}
+        <div class="card-img-overlay">
+          <div class="">&nbsp;</div>
+          <h3 class="card-title text-center pt-lg-5 h1 ">{{ .Params.subtitle }}</h3>
+          
 
-
-      <h2 class="page__title ">{{ .Title }}</h2>
-      {{ with .Params.subtitle }}
-      <div class="page__subtitle">{{ . | markdownify}}</div>
-      {{ end }}
-      <div class="page__content">{{ .Content }}</div>
+        </div>
+      </div>
+      
+      <div class="text-body py-5">{{ .Content }}</div>
+    </div>
+    <div class="col-facebook">
+      {{ partial "embed/c-facebook.html" . }}
+    </div>
+  </div>
+  
+</div>
+      
 
  
 

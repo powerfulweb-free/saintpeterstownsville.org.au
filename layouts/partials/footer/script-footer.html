@@ -5,9 +5,10 @@
 {{ partial "scripts/esbuild-babel" "js/contact.js" }}
 {{ end }}
 
+{{ partial "scripts/esbuild-async" "js/lazysizes.js" }}
 <!-- conditionally load lazysizes on multi page sites -->
-{{ if .Resources.ByType "image" }}
+{{/* if .Resources.ByType "image" }}
   {{ if not .Resources.By.SubType "svg" }}
-  {{ partial "scripts/esbuild-async" "js/lazysizes.js" }}
+
   {{ end }}
-{{ end }}
+{{ end */}}

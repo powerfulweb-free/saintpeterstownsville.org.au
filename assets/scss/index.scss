@@ -86,3 +86,50 @@
 
 
 
+//facebook css
+// below md / md and up
+.col-facebook {
+  padding-left: 0;
+  @include media-breakpoint-down(md) {
+    display: flex;
+    justify-content: center;
+  }
+  @include media-breakpoint-up(md) {
+    flex: 0 0 340px
+  }
+}
+
+
+// //arrow animation - broken
+// .navbar .nav-item:not(:last-child) {
+//   margin-right: 35px;
+// }
+ 
+// .dropdown-toggle::after {
+//    transition: transform 0.15s linear; 
+// }
+ 
+// .show.dropdown .dropdown-toggle::after {
+//   transform: translateY(3px);
+// }
+
+// //remove margin at top of sub menu so mouse does not loose hover state
+// .dropdown-menu {
+//   margin-top: 0;
+// }
+
+// @include media-breakpoint-up(lg) {
+// 	.navbar .nav-item .dropdown-menu{ 
+//     display: none; 
+//     margin-top:0
+//   }
+// 	.navbar .nav-item:hover .nav-link{   
+//     //
+//   }
+// 	.navbar .nav-item:hover .dropdown-menu{ 
+//     display: block; 
+//   }
+
+//}
+
+

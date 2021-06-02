@@ -1,13 +1,13 @@
 ---
-title: "Messy Church"
-description: ""
+title: Messy Church
+description: Messy Church is a monthly Sunday service held in the church hall. It is held on the 2nd Sunday of each month at 9.00am. It’s a more informal service and is held in the Church Hall. 
 date: 2021-05-09T20:49:22+10:00
 #lastmod: 2021-05-09T20:49:22+10:00
 draft: false
-menu: 
-  main:
-    parent: children
-    weight: 20
+# menu: 
+#   main:
+#     parent: children
+weight: 20
 images: []
 # audio: [] #fb og
 # videos: [] #fb og

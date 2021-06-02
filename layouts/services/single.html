@@ -1,0 +1,29 @@
+{{ define "main" }}
+<div class="container">
+  <div class="row pb-3">
+    <div class="col">
+      <div class="clearfix pe-0">
+        <div class="col-sm-5 float-sm-end">
+          {{ partial "scripts/srcset.html" (dict "page" . "image" "main" "title" .Title "width" "cols" "class" "p-5") }}
+        </div>
+        <h3>{{ .Title }}</h3>
+        {{ .Content | markdownify }}
+      </div>
+    </div>
+  </div>
+ 
+  {{ with .Site.GetPage "/children/messy" }}
+  <div class="row pb-3">
+    <div class="col">
+      <div class="clearfix pe-0">
+        <div class="col-sm-5 float-sm-end">
+          {{ partial "scripts/srcset.html" (dict "page" . "image" "main" "title" .Title "width" "cols" "class" "p-5") }}
+        </div>
+        <h3>{{ .Title }}</h3>
+        {{ .Content | markdownify }}
+      </div>
+    </div>
+  </div>  
+  {{ end }}
+</div>
+{{ end }}

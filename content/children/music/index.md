@@ -1,13 +1,13 @@
 ---
-title: "Mainly Music"
-description: ""
+title: Mainly Music
+description: A weekly program for bubs up to Preschool age. 
 date: 2021-05-09T20:58:25+10:00
 #lastmod: 2021-05-09T20:58:25+10:00
 draft: false
-menu: 
-  main:
-    parent: children
-    weight: 30
+# menu: 
+#   main:
+#     parent: children
+weight: 30
 images: []
 # audio: [] #fb og
 # videos: [] #fb og

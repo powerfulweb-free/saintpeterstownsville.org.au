@@ -29,7 +29,8 @@ $cyan:    #0dcaf0 !default;
 //$light: #F3F3F3;
 
 
-
+$spacer: 1rem !default;
+$border-width:                1px !default;
 
 
 
@@ -111,3 +112,24 @@ $headings-font-weight:       600;// 500 !default;
 $font-weight-bold:            600; //700 !default;
 //$font-weight-bolder:          bolder !default;
 
+
+// Cards
+
+// scss-docs-start card-variables
+$card-spacer-y:                     $spacer !default;
+$card-spacer-x:                     $spacer !default;
+$card-title-spacer-y:               $spacer / 2 !default;
+$card-border-width:                 0;//$border-width !default;
+$card-border-radius:                0;//$border-radius !default;
+$card-border-color:                 rgba($black, .125) !default;
+$card-inner-border-radius:          subtract($card-border-radius, $card-border-width) !default;
+$card-cap-padding-y:                $card-spacer-y / 2 !default;
+$card-cap-padding-x:                $card-spacer-x !default;
+$card-cap-bg:                       rgba($black, .03) !default;
+$card-cap-color:                    null !default;
+$card-height:                       null !default;
+$card-color:                        null !default;
+$card-bg:                           $white !default;
+$card-img-overlay-padding:          4rem;   //$spacer !default;
+//$card-group-margin:                 $grid-gutter-width / 2 !default;
+// scss-docs-end card-variables

@@ -1,13 +1,13 @@
 ---
 title: "Kids Plus"
-description: ""
+description: A monthly program for children Preschool age and over, held on the second Monday of each month at 5.15pm.
 date: 2021-05-09T20:59:03+10:00
 #lastmod: 2021-05-09T20:59:03+10:00
 draft: false
-menu: 
-  main:
-    parent: children
-    weight: 10
+# menu: 
+#   main:
+#     parent: children
+weight: 10
 images: []
 # audio: [] #fb og
 # videos: [] #fb og

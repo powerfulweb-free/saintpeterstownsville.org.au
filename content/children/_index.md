@@ -17,3 +17,6 @@ weight: 40
 #   params:
 #     #lazy: false
 ---
+At Saint Peters we like to cater for all ages, especially families.
+
+We have the following programs for children and their families.
