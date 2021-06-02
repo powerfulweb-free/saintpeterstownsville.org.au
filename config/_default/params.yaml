@@ -64,8 +64,8 @@ alertText: ""
 
 
 # DEV TOOLS (only on hugo server)
-devGrid: true
-devParameters: true
+# devGrid: true
+# devParameters: true
 
 
 
