@@ -1,9 +1,9 @@
 import { contactForm } from './contact-form/index';
 contactForm({
-  // formAction: '', // production
-  formAction: 'http://127.0.0.1/mail.powerfulwebdesign.com.au/local.php', // local test
-  //grecaptchaKey: '', // production
-  grecaptchaKey: '6LcTOs4aAAAAAN15ll0mreJjk457f7zvNmLOsfZS', // local test
+  formAction: 'https://mail.powerfulwebdesign.com.au/spt.php', // production
+  //formAction: 'http://127.0.0.1/mail.powerfulwebdesign.com.au/local.php', // local test
+  grecaptchaKey: '6LeiHQkbAAAAAMCfAyw44odGMMBATRI26xvV-PXG', // production
+  //grecaptchaKey: '6LcTOs4aAAAAAN15ll0mreJjk457f7zvNmLOsfZS', // local test
   grecaptchaLocation: 'bottomright',
   // formId: 'js-contactForm',
   // inputNameId: 'js-contact-name',

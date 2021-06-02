@@ -1,8 +1,8 @@
 <!doctype html>
 
-<html lang="{{ .Site.LanguageCode | default "en" }}" class="no-js">
+<html lang="{{ .Site.LanguageCode | default "en" }}" class="no-js min-vh-100">
 {{ partial "head/head.html" . }}
-<body class="{{ .Scratch.Get "class" }}">
+<body class="{{ .Scratch.Get "class" }} d-flex flex-column min-vh-100">
   {{ partial "header/script-header.html" . }}
 
   <header>
@@ -16,7 +16,7 @@
   {{ partial "header/nav.html" . }}
  
 
-  <main>
+  <main class="mb-auto">
     {{ block "main" . }}{{ end }}
   </main>
 

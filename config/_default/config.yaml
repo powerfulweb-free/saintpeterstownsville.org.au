@@ -1,7 +1,7 @@
 title: "Saint Peters Anglican Church Townsville"
 
 module:
-  replacements: "github.com/powerfulweb/hugo-common -> ../../hugo-common"
+  #replacements: "github.com/powerfulweb/hugo-common -> ../../hugo-common"
   imports:
     - path: "github.com/powerfulweb/hugo-common" 
 baseurl: "https://www.sainpeterstownsville.org.au"
