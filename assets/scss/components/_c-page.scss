@@ -59,11 +59,12 @@
       min-height: 70vh;
     }
 
-    &__header {
-      @extend .d-block, .bg-dark;
-      @extend .text-end, .text-white;
-      @extend .px-3, .pt-2, .pb-3, .mb-3;
-    }
+    
+  }
+  &__header {
+    @extend .d-block, .bg-dark;
+    @extend .text-end, .text-white;
+    @extend .px-3, .pt-2, .pb-3, .mb-3;
   }
   // &--contact {
   //   @extend .bg-light;
