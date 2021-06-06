@@ -1,4 +1,2 @@
 module:
-  replacements: "github.com/powerfulweb/hugo-common -> ../../hugo-common"
-  imports:
-    - path: "github.com/powerfulweb/hugo-common" 
+  replacements: "github.com/powerfulweb/hugo-common -> ../../../powerfulweb/hugo-common"
