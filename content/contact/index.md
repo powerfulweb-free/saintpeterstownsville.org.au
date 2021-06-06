@@ -8,7 +8,7 @@ type: contact
 formId: "js-contactForm"
 formTitle: ""
 formFieldsSplit:
-  - id: "contact-name"
+  - id: "js-contact-name"
     name: "name"
     type: "text"
     placeholder: "Name"
